@@ -1,0 +1,25 @@
+html{
+    background-color: #fff8f0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px  #333;
+}
+
+h1{
+    margin: 1;
+    padding: 80px 0;
+    color: #e9ac06;
+    text-shadow: 2px 3px 1px #bdca0736;
+    text-align: center;
+}
+
+h2{
+    margin:12;
+    padding: auto;
+    color: rgba(202, 14, 14, 0.568);
+}
