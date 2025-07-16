@@ -1,0 +1,55 @@
+<!DOCTYPE html> <!-- Diz ao navegador que é um documento HTML5 -->
+<html lang="pt-br"> <!-- Início do HTML e define o idioma como português -->
+<head>
+    <meta charset="UTF-8" /> <!-- Define o conjunto de caracteres para UTF-8 (acentos) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <!-- Faz o site ser responsivo (ajusta em celular, tablet, etc.) -->
+    
+    <title>Minhas Séries Favoritas</title> <!-- Título que aparece na aba do navegador -->
+
+    <!-- Importa fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+
+    <!-- Linka o CSS externo -->
+    <link rel="stylesheet" href="styles/styles.css"/>
+</head>
+
+<body>
+    <div class="container"> <!-- Container central para agrupar tudo -->
+        <h1>Minhas Produções Favoritas</h1> <!-- Título principal -->
+
+        <section>
+            <h2>Séries</h2> <!-- Subtítulo da seção -->
+
+            <div class="imagens"> <!-- Flex container que coloca as séries lado a lado -->
+                
+    <!-- Bloco da primeira série -->
+    <div class="serie">
+    <h3>Breaking Bad - A Química do Mal</h3>
+    <img src="Images/Breaking.jpg" alt="Breaking Bad">
+    <ul> <!-- Lista com detalhes -->
+    <li>Ano de lançamento: 2013</li>
+    <li>Temporadas: 5</li>
+    <li>Classificação indicativa: 16</li>
+    <li>Gênero: Drama</li>
+    </ul>
+    </div>
+
+    <!-- Bloco da segunda série -->
+    <div class="serie">
+    <h3>Scott Pilgrim: A Série</h3>
+    <img src="Images/Scott_Pilgrim.png" alt="Scott Pilgrim">
+    <ul>
+    <li>Ano de lançamento: 2023</li>
+    <li>Temporadas: 1</li>
+    <li>Classificação indicativa: 14</li>
+    <li>Gênero: Ação / Comédia</li>
+    </ul>
+    </div>
+    </div>
+    </section>
+    </div>
+    </body>
+    </html>

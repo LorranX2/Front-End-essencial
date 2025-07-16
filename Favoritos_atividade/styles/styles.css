@@ -1,0 +1,56 @@
+html {
+    font-family: Roboto, sans-serif;
+    /* Define a fonte Roboto para todo o site */
+}
+
+body {
+    background-color: #f7f7f7; /* Fundo claro */
+    color: #333; /* Texto escuro para contraste */
+    margin: 0;
+    padding: 20px; /* Espaço interno nas bordas do site */
+}
+
+.container {
+    max-width: 1000px; /* Limita a largura do site */
+    margin: auto; /* Centraliza o container horizontalmente */
+}
+
+h1 {
+    color: rgb(216, 70, 12); /* Cor do título principal */
+    font-size: 60px; /* Tamanho bem grande */
+    text-align: center; /* Centraliza o texto */
+    line-height: 1.2; /* Espaçamento vertical entre linhas */
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.imagens {
+    display: flex; /* Ativa o flexbox para alinhar os filhos lado a lado */
+    gap: 30px; /* Espaço entre os blocos */
+    flex-wrap: wrap; /* Se faltar espaço, quebra para a linha de baixo */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.serie {
+    background: #fff; /* Fundo branco para destacar */
+    padding: 15px; /* Espaço interno */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 5px rgba(0,0,0,0.1); /* Sombra para efeito elevado */
+    width: 300px; /* Largura fixa dos blocos */
+    text-align: center; /* Centraliza texto e imagem */
+}
+
+img {
+    width: 100%; /* Imagem ocupa toda a largura do bloco */
+    height: auto; /* Mantém a proporção */
+    border-radius: 8px; /* Cantos arredondados da imagem */
+    margin-top: 10px; /* Espaço em cima da imagem */
+}
