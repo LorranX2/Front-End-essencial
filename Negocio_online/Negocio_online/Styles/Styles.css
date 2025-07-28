@@ -1,0 +1,59 @@
+html{
+    background-color: #fff8f0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px  #333;
+}
+
+h1{
+    margin: 1;
+    padding: 80px 40px 20px 20px;
+    color: #e9ac06;
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2{
+    margin:12;
+    padding: auto;
+    color: #c71717;
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+h3{
+    width:300px;
+    font-size: 24px;
+    color: #c71717;
+    text-align: right;
+}
+
+.cardapio {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+   
+  
+  .item-cardapio:hover {
+    transform: scale(1.02);
+  }
+  
+  .item-cardapio h4 {
+    margin: 0 0 5px 0;
+    color: #b44600;
+    font-size: 20px;
+  }
+  
+  .item-cardapio p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
