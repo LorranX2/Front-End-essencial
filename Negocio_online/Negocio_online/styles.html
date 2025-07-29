@@ -1,39 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Negocio Oline</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-    <h1>Pizzaria Do Cleitão</h1>
-    <img src="Imagens/Logo_pizzaria.png" alt="Logo pizaria" width="200">
-    <h2>Bem-vindo à Pizzaria do Cleitão!</h1>
-<p>O sabor que conquista. Prepare-se para se deliciar com nossas pizzas artesanais feitas com muito carinho.</p>
-<h3>🍕 Cardápio 🍕</h3>
-<div class="cardapio">
-  <div class="item-cardapio">
-    <h4>Cleitão Supreme</h4>
-    <p>Calabresa, bacon, catupiry, cebola roxa, orégano</p>
-  </div>
-  <div class="item-cardapio">
-    <h4>Marguerita</h4>
-    <p>Molho de tomate, mussarela, tomate e manjericão fresco</p>
-  </div>
-  <div class="item-cardapio">
-    <h4>Frango com Catupiry</h4>
-    <p>Frango desfiado, catupiry, milho e orégano</p>
-  </div>
-</div>
+<!DOCTYPE html> <!-- Declara que este documento é um arquivo HTML5 -->
+<html lang="pt-br"> <!-- Início do documento HTML, define o idioma como português do Brasil -->
+<head> <!-- Cabeçalho do documento, contém informações não visíveis diretamente na página -->
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres para UTF-8 (suporta caracteres especiais) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a escala da página para dispositivos móveis -->
+  <title>Pizzaria do Cleitão</title> <!-- Define o título da aba do navegador -->
 
-  <ul>
-    
-    
-  </ul>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Otimiza conexão antecipada com Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Otimiza conexão antecipada com servidor de fontes do Google -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Importa a fonte Roboto com pesos 400 e 700 -->
+
+  <link rel="stylesheet" href="styles/styles.css"> <!-- Link para o arquivo CSS externo que contém os estilos da página -->
+</head>
+
+<body> <!-- Corpo da página onde todo conteúdo visível será colocado -->
+
+  <header style="text-align: center;"> <!-- Cabeçalho da página com alinhamento centralizado -->
+    <h1>Pizzaria do Cleitão</h1> <!-- Título principal da página -->
+    <img src="Imagens/Logo_pizzaria.png" alt="Logo Pizzaria" width="200"> <!-- Imagem do logo com largura definida -->
+    <h2>Bem-vindo à Pizzaria do Cleitão!</h2> <!-- Subtítulo de boas-vindas -->
+    <p>O sabor que conquista! 🍕 Delicie-se com nossas pizzas artesanais feitas com muito carinho.</p> <!-- Parágrafo com uma frase de apresentação -->
+  </header>
+
+  <main> <!-- Conteúdo principal da página -->
+    <h3>🍕 Cardápio 🍕</h3> <!-- Título para a seção do cardápio -->
+
+    <div class="cardapio"> <!-- Container para agrupar os itens do cardápio -->
+
+      <div class="item-cardapio"> <!-- Primeiro item do cardápio -->
+        <img src="Imagens/cleitao_supreme.jpg" alt="Pizza Cleitão Supreme"> <!-- Imagem da pizza -->
+        <div class="texto-cardapio"> <!-- Container para o texto do item -->
+          <h4>Cleitão Supreme</h4> <!-- Nome da pizza -->
+          <p>Calabresa, bacon, catupiry, cebola roxa, orégano</p> <!-- Descrição dos ingredientes -->
+        </div>
+      </div>
+
+      <div class="item-cardapio"> <!-- Segundo item do cardápio -->
+        <img src="Imagens/marguerita.jpg" alt="Pizza Marguerita"> <!-- Imagem da pizza -->
+        <div class="texto-cardapio"> <!-- Container para o texto do item -->
+          <h4>Marguerita</h4> <!-- Nome da pizza -->
+          <p>Molho de tomate, mussarela, tomate e manjericão fresco</p> <!-- Descrição dos ingredientes -->
+        </div>
+      </div>
+
+      <div class="item-cardapio"> <!-- Terceiro item do cardápio -->
+        <img src="Imagens/frango_catupiry.jpg" alt="Pizza Frango com Catupiry"> <!-- Imagem da pizza -->
+        <div class="texto-cardapio"> <!-- Container para o texto do item -->
+          <h4>Frango com Catupiry</h4> <!-- Nome da pizza -->
+          <p>Frango desfiado, catupiry, milho e orégano</p> <!-- Descrição dos ingredientes -->
+        </div>
+      </div>
+
+      <div class="item-cardapio"> <!-- Quarto item do cardápio -->
+        <img src="Imagens/chocolate_morango.jpg" alt="Pizza de Chocolate com Morango"> <!-- Imagem da pizza -->
+        <div class="texto-cardapio"> <!-- Container para o texto do item -->
+          <h4>Chocolate com Morango</h4> <!-- Nome da pizza -->
+          <p>Chocolate ao leite e morangos frescos</p> <!-- Descrição dos ingredientes -->
+        </div>
+      </div>
+
+      <div class="item-cardapio"> <!-- Quinto item do cardápio -->
+        <img src="Imagens/nutella_banana.jpg" alt="Pizza de Nutella com Banana"> <!-- Imagem da pizza -->
+        <div class="texto-cardapio"> <!-- Container para o texto do item -->
+          <h4>Nutella com Banana</h4> <!-- Nome da pizza -->
+          <p>Creme de Nutella, banana fatiada e um toque de canela</p> <!-- Descrição dos ingredientes -->
+        </div>
+      </div>
+
+    </div> <!-- Fecha o container do cardápio -->
+
+  </main>
 
 </body>
 </html>
