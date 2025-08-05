@@ -1,73 +1,73 @@
 /* Remove margens e espaçamentos padrão de todos os elementos e define box-sizing para incluir bordas e padding no tamanho total */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o espaçamento interno padrão */
+    box-sizing: border-box; /* Faz com que padding e bordas sejam incluídos na largura/altura total */
 }
 
 /* Estilização geral do corpo da página */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte padrão */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte padrão */
     background-color: #f9fafb; /* Cor de fundo clara */
-    color: #111827; /* Cor padrão do texto */
+    color: #111827; /* Cor principal do texto */
 }
 
 /* Barra de navegação (navbar) */
 .navbar {
     background-color: #4f46e5; /* Cor de fundo roxa */
-    padding: 1rem 2rem; /* Espaçamento interno (vertical 1rem, horizontal 2rem) */
-    display: flex; /* Usa flexbox para alinhar elementos */
-    justify-content: space-between; /* Espaço máximo entre logo e links */
+    padding: 1rem 2rem; /* Espaçamento interno (vertical e horizontal) */
+    display: flex; /* Organiza os itens na horizontal */
+    justify-content: space-between; /* Espaça os elementos nos extremos */
     align-items: center; /* Alinha verticalmente ao centro */
 }
 
 /* Lista de links de navegação */
 .nav-links {
     list-style: none; /* Remove os marcadores da lista */
-    display: flex; /* Links ficam lado a lado */
-    gap: 1.5rem; /* Espaçamento entre os links */
+    display: flex; /* Coloca os links lado a lado */
+    gap: 1.5rem; /* Espaço entre os links */
 }
 
-/* Links da navegação */
+/* Links de navegação */
 .nav-links a {
-    color: #FFF; /* Cor branca para o texto */
+    color: #FFF; /* Cor branca no texto */
     text-decoration: none; /* Remove o sublinhado */
     font-weight: 500; /* Peso médio da fonte */
-    transition: color 0.3s; /* Transição suave na cor ao passar o mouse */
+    transition: color 0.3s; /* Transição suave na cor */
 }
 
 /* Estilo do logo */
 .logo {
-    color: #FFF; /* Texto branco */
+    color: #FFF; /* Cor branca */
     font-size: 1.5rem; /* Tamanho do texto */
     font-weight: bold; /* Negrito */
 }
 
 /* Seção hero (destaque) */
 .hero {
-    display: flex; /* Flexbox para layout horizontal */
-    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
-    align-items: center; /* Alinha verticalmente no centro */
-    justify-content: space-between; /* Espaço entre texto e imagem */
+    display: flex; /* Layout em linha */
+    flex-wrap: wrap; /* Quebra de linha em telas menores */
+    align-items: center; /* Alinhamento vertical */
+    justify-content: space-between; /* Espaço entre elementos */
     padding: 4rem 2rem; /* Espaçamento interno */
 }
 
-/* Container de texto dentro do hero */
+/* Texto do hero */
 .hero-texto {
-    max-width: 500px; /* Limita a largura do texto */
+    max-width: 500px; /* Largura máxima */
 }
 
-/* Título da seção hero */
+/* Título do hero */
 .hero-texto h1 {
-    font-size: 2.5rem; /* Tamanho grande do título */
+    font-size: 2.5rem; /* Tamanho grande */
     color: #111827; /* Cor escura */
     margin-bottom: 1rem; /* Espaço abaixo */
 }
 
-/* Parágrafo da seção hero */
+/* Parágrafo do hero */
 .hero-texto p {
-    font-size: 1rem; /* Tamanho padrão */
-    color: #6b7280; /* Cinza */
+    font-size: 1.1rem; /* Tamanho do texto */
+    color: #6b7280; /* Cor cinza */
     margin-bottom: 2rem; /* Espaço abaixo */
 }
 
@@ -78,59 +78,172 @@ body {
     padding: 0.75rem 1.5rem; /* Espaçamento interno */
     border-radius: 0.5rem; /* Cantos arredondados */
     text-decoration: none; /* Remove sublinhado */
-    font-weight: 600; /* Fonte mais forte */
-    transition: background-color 0.3s; /* Transição suave de cor no hover */
+    font-weight: 600; /* Negrito */
+    transition: background-color 0.3s; /* Efeito suave ao mudar cor */
 }
 
-/* Efeito hover no botão */
+/* Efeito hover do botão */
 .btn-cta:hover {
-    background-color: #4338ca; /* Cor mais escura ao passar o mouse */
+    background-color: #4338ca; /* Cor mais escura no hover */
 }
 
-/* Efeito hover nos links da navbar */
+/* Efeito hover nos links */
 .nav-links a:hover {
-    color: #E0E7FF; /* Muda para um tom mais claro de roxo */
+    color: #E0E7FF; /* Muda para tom mais claro */
 }
 
-.conteudo{
-    padding: 4rem 2rem;
-    background-color: #ffffff;
-    text-align: center;
+/* Seção de conteúdo */
+.conteudo {
+    padding: 4rem 2rem; /* Espaçamento interno */
+    background-color: #ffffff; /* Fundo branco */
+    text-align: center; /* Centraliza o texto */
 }
 
-.conteudo h2{
-    font-size: 2rem;
-    color: #111827;
-    margin-bottom: 2rem;
+.conteudo h2 {
+    font-size: 2rem; /* Tamanho grande */
+    color: #111827; /* Cor escura */
+    margin-bottom: 2rem; /* Espaço abaixo */
 }
 
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
+/* Layout dos cards */
+.cards {
+    display: flex; /* Layout em linha */
+    flex-wrap: wrap; /* Quebra em telas pequenas */
+    justify-content: center; /* Centraliza os cards */
+    gap: 2rem; /* Espaço entre cards */
 }
 
-.card{
-    background-color: #F3F4F6;
-    border-radius: 1.5rem;
-    padding: 3rem 2rem;
-    max-width: 320px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
+/* Estilo dos cards */
+.card {
+    background-color: #F3F4F6; /* Fundo cinza claro */
+    border-radius: 1.5rem; /* Bordas arredondadas */
+    padding: 3rem 2rem; /* Espaçamento interno */
+    max-width: 320px; /* Largura máxima */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra leve */
+    transition: transform 0.3s; /* Transição suave no movimento */
 }
 
-.card:hover{
-    transform: translateY(-5px);
+/* Efeito hover nos cards */
+.card:hover {
+    transform: translateY(-5px); /* Move levemente para cima */
 }
 
-.card h3{
-    color: #4F46E5;
-    font-size: 20px;
-    margin-bottom: 1rem;
+.card h3 {
+    color: #4F46E5; /* Cor roxa */
+    font-size: 20px; /* Tamanho */
+    margin-bottom: 1rem; /* Espaço abaixo */
 }
 
-.card p{
-    color: #6b7280;
+.card p {
+    color: #6b7280; /* Cinza */
 }
 
+/* Seção depoimentos */
+.depoimentos {
+    padding: 4rem 2rem; /* Espaçamento interno */
+    background-color: #F9FAFB; /* Fundo cinza muito claro */
+    text-align: center; /* Centraliza texto */
+}
+
+.depoimentos h2 {
+    font-style: italic; /* Itálico */
+    font-size: 2rem; /* Tamanho grande */
+    margin-bottom: 2.5rem; /* Espaço abaixo */
+}
+
+/* Container dos cards de alunos */
+.cards-alunos {
+    display: flex; /* Layout em linha */
+    flex-wrap: wrap; /* Quebra em telas menores */
+    justify-content: center; /* Centraliza */
+    gap: 2rem; /* Espaço entre cards */
+}
+
+/* Card de aluno */
+.card-aluno {
+    background-color: #FFF; /* Fundo branco */
+    border-radius: 1rem; /* Bordas arredondadas */
+    padding: 1rem; /* Espaçamento interno */
+    max-width: 300px; /* Largura máxima */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra */
+    transition: transform 0.3s; /* Animação suave */
+    text-align: center; /* Centraliza conteúdo */
+}
+
+.card-aluno:hover {
+    transform: translateY(-5px); /* Move para cima no hover */
+}
+
+.card-aluno img {
+    width: 70px; /* Largura da imagem */
+    height: 70px; /* Altura da imagem */
+    border-radius: 50%; /* Forma circular */
+    margin-bottom: 1rem; /* Espaço abaixo */
+}
+
+.card-aluno h3 {
+    color: #4F46E5; /* Roxo */
+    font-size: 15px; /* Tamanho */
+    margin-bottom: 0.5rem; /* Espaço abaixo */
+    padding: 6px; /* Espaço interno */
+}
+
+.card-aluno p {
+    padding: 5px 8px 8px 8px; /* Espaço interno */
+    color: #4B5563; /* Cinza */
+}
+
+/* Seção exemplos */
+.exemplos {
+    padding: 4rem 2rem; /* Espaçamento interno */
+    background-color: #F9FAFB; /* Fundo cinza muito claro */
+    text-align: center; /* Centraliza texto */
+}
+
+.exemplos h2 {
+    font-style: italic; /* Itálico */
+    font-size: 2rem; /* Tamanho grande */
+    margin-bottom: 2.5rem; /* Espaço abaixo */
+}
+
+/* Container dos cards de exemplo */
+.cards-exemplo {
+    display: flex; /* Layout em linha */
+    flex-wrap: wrap; /* Quebra de linha */
+    justify-content: center; /* Centraliza */
+    gap: 2rem; /* Espaço entre cards */
+}
+
+/* Card exemplo */
+.card-exemplo {
+    background-color: #FFF; /* Fundo branco */
+    border-radius: 1rem; /* Bordas arredondadas */
+    padding: 1rem; /* Espaçamento interno */
+    max-width: 300px; /* Largura máxima */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra */
+    transition: transform 0.3s; /* Animação suave */
+    text-align: center; /* Centraliza */
+}
+
+.card-exemplo:hover {
+    transform: translateY(-5px); /* Move para cima */
+}
+
+.card-exemplo img {
+    width: 70px; /* Largura imagem */
+    height: 70px; /* Altura imagem */
+    border-radius: 50%; /* Forma circular */
+    margin-bottom: 1rem; /* Espaço abaixo */
+}
+
+.card-exemplo h3 {
+    color: #4F46E5; /* Roxo */
+    font-size: 15px; /* Tamanho */
+    margin-bottom: 0.5rem; /* Espaço abaixo */
+    padding: 6px; /* Espaço interno */
+}
+
+.card-exemplo p {
+    padding: 5px 8px 8px 8px; /* Espaço interno */
+    color: #4B5563; /* Cinza */
+}
