@@ -1,0 +1,224 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color:  #F0FDF4; 
+    color: #065F46; 
+}
+
+/* Barra de navegação (navbar) */
+.navbar {
+    background-color: #065F46; 
+    padding: 1rem 2rem; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Lista de links de navegação */
+.nav-links {
+    list-style: none; 
+    display: flex; 
+    gap: 2.5rem; 
+    justify-content: left;
+}
+
+/* Links de navegação */
+.nav-links a {
+    color: #FFF; 
+    text-decoration: none; 
+    font-weight: 500; 
+    transition: color 0.3s; 
+}
+
+/* Estilo do logo */
+.logo {
+    color: #FFF; 
+    font-size: 1.8rem; 
+    font-weight: bold; 
+}
+
+/* Seção hero (destaque) */
+.hero {
+    display: flex; /* Layout em linha */
+    flex-wrap: wrap; /* Quebra de linha em telas menores */
+    background-color: #ECFDF5;
+    align-items: center; /* Alinhamento vertical */
+    justify-content: space-between; /* Espaço entre elementos */
+    padding: 4rem 2rem; /* Espaçamento interno */
+}
+
+/* Texto do hero */
+.hero-texto {
+    max-width: 500px; /* Largura máxima */
+    justify-items: left;
+    transform: translateX(20);
+}
+
+/* Título do hero */
+.hero-texto h1 {
+    font-size: 2.5rem; /* Tamanho grande */
+    color:  #065F46; 
+    margin-bottom: 1rem; /* Espaço abaixo */
+}
+
+/* Parágrafo do hero */
+.hero-texto p {
+    font-size: 1.1rem; /* Tamanho do texto */
+    color:  #065F46; 
+    margin-bottom: 2rem; /* Espaço abaixo */
+}
+
+/* Botão de chamada para ação */
+.btn-cta {
+    background-color:  #10B981; /* Cor de fundo roxa */
+    color: #fff; 
+    padding: 0.75rem 1.5rem; /* Espaçamento interno */
+    border-radius: 0.5rem; /* Cantos arredondados */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: 600; /* Negrito */
+    transition: background-color 0.3s; /* Efeito suave ao mudar cor */
+}
+
+/* Efeito hover do botão */
+.btn-cta:hover {
+    background-color: #059669; /* Cor mais escura no hover */
+}
+
+/* Efeito hover nos links */
+.nav-links a:hover {
+    color: #e0ffe4; /* Muda para tom mais claro */
+}
+
+
+
+
+/*=================================== Seção de conteúdo =======================================*/
+
+
+.conteudo {
+    padding: 4rem 2rem; /* Espaçamento interno */
+    background-color: #ffffff; 
+    text-align: center; /* Centraliza o texto */
+}
+
+.conteudo h2 {
+    font-size: 2rem; /* Tamanho grande */
+    color:  #065F46; 
+    margin-bottom: 2rem; /* Espaço abaixo */
+}
+
+/* Layout dos cards */
+.cards {
+    display: flex; /* Layout em linha */
+    flex-wrap: wrap; /* Quebra em telas pequenas */
+    justify-content: center; /* Centraliza os cards */
+    gap: 2rem; /* Espaço entre cards */
+}
+
+/* Estilo dos cards */
+.card {
+    background-color:  #D1FAE5; 
+    border-radius: 1.5rem; /* Bordas arredondadas */
+    padding: 3rem 2rem; /* Espaçamento interno */
+    max-width: 320px; /* Largura máxima */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra leve */
+    transition: transform 0.3s; /* Transição suave no movimento */
+}
+
+/* Efeito hover nos cards */
+.card:hover {
+    transform: translateY(-5px); /* Move levemente para cima */
+}
+
+.card h3 {
+    color:  #065F46; 
+    font-size: 20px; /* Tamanho */
+    margin-bottom: 1rem; /* Espaço abaixo */
+}
+
+.card p {
+    color:  #065F46; 
+}
+
+
+
+
+/* ============================ Seção exemplos ==================================== */
+
+
+
+.exemplos {
+
+    padding: 4rem 2rem; 
+    background-color: #F0FDF4; 
+    text-align: center; 
+}
+
+.exemplos h2 {
+    font-style: italic; /* Itálico */
+    font-size: 2rem; /* Tamanho grande */
+    padding: 10px 0 0 2px;
+    margin-bottom: 2.5rem; /* Espaço abaixo */
+}
+
+.paragrafo p{
+    color: #065F46;
+    padding: 10px 20px 20px 0;
+}
+
+/* Container dos cards de exemplo */
+.Todos_exemplos {
+    display: flex; /* Layout em linha */
+    flex-wrap: wrap; /* Quebra de linha */
+    justify-content: center; /* Centraliza */
+    gap: 2rem; /* Espaço entre cards */
+}
+
+/* Card exemplo */
+.card-exemplo {
+    background-color: #FFFF; /* Fundo branco */
+    border-radius: 1rem; /* Bordas arredondadas */
+    max-width: 320px; /* Largura máxima */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra */
+    transition: transform 0.3s; 
+    text-align: center; /* Centraliza */
+    padding: 2px 0 2px
+}
+
+.card-exemplo:hover {
+    transform: translateY(-5px); /* Move para cima */
+}
+
+.card-exemplo img {
+    width: 100%;; /* Largura imagem */
+    height: 200px; /* Altura imagem */
+    border-radius: 16px 16px 0 0;
+}
+
+.card-exemplo h3 {
+    color:  #065F46; 
+    font-size: 20px; 
+    margin-bottom: 2.0rem; 
+    padding: 3px 2px 0 2px; 
+}
+
+.card-exemplo p {
+    padding: 5px 8px 8px 8px; 
+    color:    #065F46; 
+}
+
+
+footer{
+    
+    color: #FFFF;
+    background-color: #047857;
+    display:block;
+    text-align: center;
+    padding: 25px;
+}
+
