@@ -92,7 +92,12 @@ body {
     color: #E0E7FF; /* Muda para tom mais claro */
 }
 
-/* Seção de conteúdo */
+
+
+
+/*=================================== Seção de conteúdo =======================================*/
+
+
 .conteudo {
     padding: 4rem 2rem; /* Espaçamento interno */
     background-color: #ffffff; /* Fundo branco */
@@ -138,7 +143,12 @@ body {
     color: #6b7280; /* Cinza */
 }
 
-/* Seção depoimentos */
+
+
+/* ============================ Seção depoimentos =====================================*/
+
+
+
 .depoimentos {
     padding: 4rem 2rem; /* Espaçamento interno */
     background-color: #F9FAFB; /* Fundo cinza muito claro */
@@ -193,21 +203,29 @@ body {
     color: #4B5563; /* Cinza */
 }
 
-/* Seção exemplos */
+
+
+
+/* ============================ Seção exemplos ==================================== */
+
+
+
 .exemplos {
+
     padding: 4rem 2rem; /* Espaçamento interno */
-    background-color: #F9FAFB; /* Fundo cinza muito claro */
+    background-color: #FFF; /* Fundo cinza muito claro */
     text-align: center; /* Centraliza texto */
 }
 
 .exemplos h2 {
     font-style: italic; /* Itálico */
     font-size: 2rem; /* Tamanho grande */
+    padding: 10px 0 0 2px;
     margin-bottom: 2.5rem; /* Espaço abaixo */
 }
 
 /* Container dos cards de exemplo */
-.cards-exemplo {
+.Todos_exemplos {
     display: flex; /* Layout em linha */
     flex-wrap: wrap; /* Quebra de linha */
     justify-content: center; /* Centraliza */
@@ -216,9 +234,8 @@ body {
 
 /* Card exemplo */
 .card-exemplo {
-    background-color: #FFF; /* Fundo branco */
+    background-color: #f1f1f1; /* Fundo branco */
     border-radius: 1rem; /* Bordas arredondadas */
-    padding: 1rem; /* Espaçamento interno */
     max-width: 300px; /* Largura máxima */
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra */
     transition: transform 0.3s; /* Animação suave */
@@ -230,10 +247,9 @@ body {
 }
 
 .card-exemplo img {
-    width: 70px; /* Largura imagem */
-    height: 70px; /* Altura imagem */
-    border-radius: 50%; /* Forma circular */
-    margin-bottom: 1rem; /* Espaço abaixo */
+    width: 100%;; /* Largura imagem */
+    height: 200px; /* Altura imagem */
+    border-radius: 16px 16px 0 0;
 }
 
 .card-exemplo h3 {
@@ -246,4 +262,9 @@ body {
 .card-exemplo p {
     padding: 5px 8px 8px 8px; /* Espaço interno */
     color: #4B5563; /* Cinza */
+}
+
+.paragrafo p{
+    color: #4B5563;
+    padding: 0 0 25px 0;
 }
